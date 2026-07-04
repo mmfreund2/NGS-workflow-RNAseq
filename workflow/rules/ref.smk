@@ -67,7 +67,7 @@ else:
 			input:
 				"resources/ref_genome.fasta",
 			output:
-				temp("resources/genome.fasta"),
+				temp("resources/genome.fasta.gz"),
 			log:
 				"logs/rename_genome.log",
 			cache: True
